@@ -16,5 +16,5 @@ def build_context_window(ctx, st):
     return word_ctx
 
 ctx = 2
-st = "co-occurence matrix with a fixed context window".split()
+st = input("Enter sentence:...").split()
 print(build_context_window(ctx,st))
